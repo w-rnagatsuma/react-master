@@ -1,6 +1,7 @@
 import Title from "./components/Title";
 import Message from "./components/Message";
 import ProfileCard from "./components/ProfileCard";
+import Counter from "./components/Counter";
 
 export default function App() {
   const userName = "山田太郎";
@@ -31,7 +32,8 @@ export default function App() {
       {/* 2日目の内容 */}
       <Title text="2日目" />
       <Message content="今日は useState とイベント処理を学びます。" />
-
+      
+      <Counter />
     </div>
   )
 }
