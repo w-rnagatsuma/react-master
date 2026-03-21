@@ -9,6 +9,7 @@ export default function App() {
 
   return (
     <div style={{ padding: "16px", fontFamily: "Arial, sans-serif" }}>
+      {/* 1日目の内容 */}
       <Title text="React学習1日目" />
 
       <Message content="今日は JSX と props をに慣れる日です。" />
@@ -24,6 +25,13 @@ export default function App() {
         <li>propsは親から子へデータを渡す手段です。</li>
         <li>JSXでは{}を使ってJavaScriptの式を埋め込むことができます。</li>
       </ul>
+
+      <hr />
+
+      {/* 2日目の内容 */}
+      <Title text="2日目" />
+      <Message content="今日は useState とイベント処理を学びます。" />
+
     </div>
   )
 }
