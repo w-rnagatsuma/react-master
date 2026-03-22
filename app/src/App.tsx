@@ -50,6 +50,11 @@ export default function App() {
       <Message content="今日は input の値を state で管理します。" />
 
       <TodoForm />
+
+      {/* 5日目の内容 */}
+      <hr />
+      <Title text="5日目" />
+      <Message content="今日は useEffect を学びます。" />
     </div>
   )
 }
