@@ -42,6 +42,11 @@ export default function App() {
       <Message content="今日は配列の表示と条件分岐を学びます。" />
 
       <TodoList />
+
+      {/* 4日目の内容 */}
+      <hr />
+      <Title text="4日目" />
+      <Message content="今日は input の値を state で管理します。" />
     </div>
   )
 }
