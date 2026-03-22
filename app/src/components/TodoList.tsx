@@ -1,3 +1,5 @@
+import TodoItem from "./TodoItem";
+
 type Todo = {
   id: number;
   text: string;
@@ -29,7 +31,7 @@ export default function TodoList() {
             
             <ul style={{ paddingLeft: "20px" }}>
                 {todos.map((todo) => (
-                    <li>{todo.id}</li>
+                    <TodoItem key={todo.id} text={todo.text} done={todo.done} />
                 ))}
             </ul>
         </div>
