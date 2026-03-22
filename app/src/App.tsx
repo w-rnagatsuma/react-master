@@ -3,6 +3,7 @@ import Message from "./components/Message";
 import ProfileCard from "./components/ProfileCard";
 import Counter from "./components/Counter";
 import TodoList from "./components/TodoList";
+import TodoForm from "./components/TodoForm";
 
 export default function App() {
   const userName = "山田太郎";
@@ -47,6 +48,8 @@ export default function App() {
       <hr />
       <Title text="4日目" />
       <Message content="今日は input の値を state で管理します。" />
+
+      <TodoForm />
     </div>
   )
 }

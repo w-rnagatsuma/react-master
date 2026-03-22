@@ -3,7 +3,8 @@
 ### 学ぶこと
 - inputの値を`state` で管理する
 - `onChange`
-- `controled` `component`
+- controled component
+    - 入力値をReact側で管理している状態
 
 ### やること
 - 入力欄を作る
