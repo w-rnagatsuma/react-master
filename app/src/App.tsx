@@ -4,6 +4,7 @@ import ProfileCard from "./components/ProfileCard";
 import Counter from "./components/Counter";
 import TodoList from "./components/TodoList";
 import TodoForm from "./components/TodoForm";
+import EffectSample from "./components/EffectSample";
 
 export default function App() {
   const userName = "山田太郎";
@@ -55,6 +56,8 @@ export default function App() {
       <hr />
       <Title text="5日目" />
       <Message content="今日は useEffect を学びます。" />
+
+      <EffectSample />
     </div>
   )
 }
