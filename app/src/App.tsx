@@ -2,6 +2,7 @@ import Title from "./components/Title";
 import Message from "./components/Message";
 import ProfileCard from "./components/ProfileCard";
 import Counter from "./components/Counter";
+import TodoList from "./components/TodoList";
 
 export default function App() {
   const userName = "山田太郎";
@@ -27,13 +28,20 @@ export default function App() {
         <li>JSXでは{}を使ってJavaScriptの式を埋め込むことができます。</li>
       </ul>
 
-      <hr />
 
       {/* 2日目の内容 */}
+      <hr />
       <Title text="2日目" />
       <Message content="今日は useState とイベント処理を学びます。" />
       
       <Counter />
+
+      {/* 3日目の内容 */}
+      <hr />
+      <Title text="3日目" />
+      <Message content="今日は配列の表示と条件分岐を学びます。" />
+
+      <TodoList />
     </div>
   )
 }
